@@ -10,19 +10,19 @@ public class Trinnskatt {
 		double numInntekt = Double.parseDouble(txtInntekt); 
 		double trinnSkatt = 0;
 		
-		if (numInntekt == 0) {
+		if (numInntekt < 184800) {
 			trinnSkatt = 0;
 		}
-		else if (numInntekt <= 184800) {
+		else if (numInntekt >= 184800 && numInntekt < 260100) {
 			trinnSkatt = 1.7;
 		}
-		else if (numInntekt <= 260100) {
+		else if (numInntekt >= 260100 && numInntekt < 651250) {
 			trinnSkatt = 4.0;
 		}
-		else if (numInntekt <= 651250) {
+		else if (numInntekt >= 651250 && numInntekt < 1021550) {
 			trinnSkatt = 13.2;
 		}
-		else if (numInntekt < 1021550) {
+		else if (numInntekt >= 1021550) {
 			trinnSkatt = 16.2;
 		}
 		
