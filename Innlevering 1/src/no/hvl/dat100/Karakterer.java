@@ -33,7 +33,7 @@ public class Karakterer {
 				System.out.println("Ugyldig karakter. Skriv inn på nytt");
 			} else {
 				System.out.println(
-						"Elev " + studentnummer + " fekk " + txtPoeng + " poeng og fekk karakteren " + karakter + ".");
+						"Student " + studentnummer + " fekk " + txtPoeng + " poeng og fekk karakteren " + karakter + ".");
 			}
 
 		}

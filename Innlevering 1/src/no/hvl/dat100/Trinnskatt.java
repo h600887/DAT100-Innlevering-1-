@@ -7,7 +7,7 @@ public class Trinnskatt {
 	public static void main(String[] args) {
 		String txtInntekt = showInputDialog("Inntekt?");
 		
-		double numInntekt = Double.parseDouble(txtInntekt);
+		double numInntekt = Double.parseDouble(txtInntekt); 
 		double trinnSkatt = 0;
 		
 		if (numInntekt == 0) {
@@ -26,7 +26,7 @@ public class Trinnskatt {
 			trinnSkatt = 16.2;
 		}
 		
-		showMessageDialog(null, "Du tjener " + txtInntekt + " kr og betaler " + trinnSkatt + "% trinnskatt");
+		showMessageDialog(null, "Du tjente " + txtInntekt + " kr og betaler " + trinnSkatt + "% trinnskatt");
 
 	}
 
